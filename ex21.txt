@@ -1,0 +1,16 @@
+what = add([30+5], subtract([78-4], multiply([90*2], divide([100/2], 2))))
+
+what = add([35], subtract([74], multiply(180], divide ([50], 2))))
+
+what = add([35], subtract([74], multiply(180], divide (25)
+
+what = add([35], subtract([74] - 4500)
+
+what = add([35], -4,426)
+
+what = -4,391
+
+age = add(30, 5)
+height = subtract(78, 4)
+weight = multiply(90, 2)
+iq = divide(100, 2)
