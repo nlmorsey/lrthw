@@ -1,25 +1,21 @@
-print "Give me a number: "
-number = gets.chomp.to_i
-
-print "Give me another number: "
-another_number = gets.chomp.to_i
-
-print "Give me one more number: "
-one_more_number = gets.chomp.to_i
-
-def function(x, y, z)
-    puts "Message goes #{x} here!"
-    puts "Message goes #{y} here!"
-    puts "Message goes #{z} here!"
+def cheese_and_crackers(cheese_count, boxes_of_crackers)
+    puts "You have #{cheese_count} cheeses!"
+    puts "You have #{boxes_of_crackers} boxes of crackers!"
+    puts "Man that's enough for a party!"
+    puts "Get a blanket.\n"
 end
 
-function(number, another_number, one_more_number)
+puts "We can just give the function numbers directly:"
+cheese_and_crackers(20, 30)
 
-xx = 1
-yy = 2
-zz = 3
-function(xx, yy, zz)
+puts "OR, we can use the variables from our script:"
+amount_of_cheese = 10
+amount_of_crackers = 50
 
-function(1 + 2, 3 + 4, 5 + 6)
+cheese_and_crackers(amount_of_cheese, amount_of_crackers)
 
-function(xx + 1, yy + 2, zz + 3)
+puts "We can even do math inside too:"
+cheese_and_crackers(10 + 20, 5 + 6)
+
+puts "And we can combine the two, variables and math:"
+cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)

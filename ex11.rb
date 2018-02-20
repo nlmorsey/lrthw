@@ -1,4 +1,8 @@
-print "How many hearts do you give me? "
-your_answer = $stdin.gets.chomp
+print "How old are you? "
+age = gets.chomp
+print "How tall are you? "
+height = gets.chomp
+print "How much do you weigh? "
+weight = gets.chomp
 
-puts "So, I give you #{your_answer} hearts plus one more heart <3"
+puts "So, you're #{age} old, #{height} tall and #{weight} heavy."
