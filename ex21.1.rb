@@ -10,6 +10,6 @@ decade = add(1000, 1000)
 
 height = multiply(5.7, 6.7)
 
-so_what = add(2, multiply(3, 4))
+so_what = add(decade, (multiply(height, 2)))
 
 puts so_what
